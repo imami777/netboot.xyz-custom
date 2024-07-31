@@ -6,7 +6,7 @@
 :custom
 clear custom_choice
 menu This is a Test Menu
-item --gap This is the first sub menu
+item --gap Install
 item nixos_plasma ${space} nixos plasma 6 installer
 item openbsd ${space} OpenBSD installer
 item --gap This is a second sub menu
