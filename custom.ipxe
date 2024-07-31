@@ -29,7 +29,7 @@ boot || goto custom_exit
 
 :openbsd
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd https://mirrors.ircam.fr/pub/OpenBSD/7.5/amd64/install75.iso
+initrd https://mirrors.ircam.fr/pub/OpenBSD/7.5/amd64/install75.img
 boot || goto custom_exit
 
 :option_three
